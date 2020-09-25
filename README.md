@@ -3,7 +3,7 @@
 
  This example explains how authentication ana Authorization works in different tables using two resources.
  
-
+## Script
 
 CREATE TABLE public.usuario_gestao (
   id numeric(18,0) NOT NULL,
@@ -21,5 +21,5 @@ CREATE TABLE public.usuario_portal (
   id_role numeric(18,0) NOT NULL
 )
 
-Program arguments
+## Program arguments
 --spring.profiles.active=development
